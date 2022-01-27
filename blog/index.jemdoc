@@ -1,0 +1,19 @@
+# jemdoc: menu{MENU}{index.html}, showsource
+= Alex Wang Xiang's blog
+[alexwangxiang.github.io Alex Wang Xiang] ([wx--168@163.com])
+
+I'm currently a algorithm engineer at [www.szewec.com 深高速工程顾问有限公司]. Before joining szewec in May 2021, I obtained my B.Sc. in Mathematics at Peking University in July 2017, and M.Sc. in Mathematics at Université Paris-Sud in July 2018. I worked as a junior researcher at [www.noahlab.com.hk Huawei Noah's Ark Lab] from Sept 2018 to Sept 2019, and as a research assistant at [siqse.sustech.edu.cn Shenzhen Institute for Quantum Science and Engineering] from Dec 2019 to May 2021.
+
+== Goals
+- Simple, consistent syntax.
+- $\mbox{\LaTeX}$ [latex.html equation support].
+- [tables.html Table support].
+- Portability. The (single) jemdoc [http://www.python.org/ Python] file \+
+  single css file \+ your input file {{&rarr;}} html.
+- Based on [http://www.w3.org/Style/CSS/ CSS] so formatting specifics are
+  independent of jemdoc.
+- Production of clean,
+  [http://validator.w3.org/check/referer
+  standards-compliant] [http://www.w3.org/TR/xhtml11/ XHTML 1.1].
+- Minimal bells and whistles, but simple fallback to raw html if required.
+
